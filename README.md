@@ -32,6 +32,11 @@ As the tests exercise functionality with external dependencies such as YARA and 
 
 YARA is a rules-based scanner used for detecting malware samples. As one of the features of `securefileupload` leverages on YARA, we have to install the binary on our system before proceeding to run the full test suite. For detailed installation information, please refer to this URL: https://yara.readthedocs.io/en/stable/gettingstarted.html#compiling-and-installing-yara.
 
+#### QuickSand
+
+[QuickSand](https://github.com/tylabs/quicksand) is a Python-based analysis framework to analyze suspected malware documents to identify exploits in streams of different encodings or compressions. QuickSand supports documents, PDFs, Mime/Email, Postscript and other common formats. A built-in command line tool can process a single document or directory of documents.
+
+
 
 #### ClamAV
 
